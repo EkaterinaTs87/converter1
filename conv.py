@@ -19,7 +19,7 @@ def exchange():
             mb.showerror("Ошибка!", f"Произошла ошибка {error}")
 
 
-window=Tk()
+window=Tk() #это гл.окно
 window.title("Конвертер валют")
 window.geometry("400x500")
 
